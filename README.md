@@ -30,7 +30,7 @@ Ini adalah proyek backend berbasis ASP.NET Core yang mengimplementasikan fitur m
 
 * Menggunakan Microsoft SQL Server.
 * Desain relational database optimal dengan minimal 2 tabel relasi.
-* Contoh entitas: `Users`, `Orders`, `Products` (dengan relasi antara `Orders` dan `Products`).
+* Contoh entitas: `Users`, `Books`, `BorrowTransactions` (dengan relasi antara `Books` dan `BorrowTransactions`).
 * Fitur transactional diimplementasikan untuk menjamin konsistensi data saat melakukan perubahan pada dua tabel atau lebih (misalnya saat membuat pesanan yang melibatkan update stok produk dan insert order secara bersamaan).
 
 ### ✅ **Integrasi dengan Public API**
